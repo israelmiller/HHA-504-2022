@@ -33,7 +33,7 @@ MYSQL_DATABASE = os.getenv("MYSQL_DATABASE")
 
 ########
 
-connection_string = f'mysql+pymysql://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOSTNAME}:3305/{MYSQL_DATABASE}'
+connection_string = f'mysql+pymysql://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOSTNAME}:3306/{MYSQL_DATABASE}'
 engine = create_engine(connection_string)
 
 TABLENAME = MYSQL_USER + 'fakeTableAssignment1'
