@@ -1,0 +1,11 @@
+# How created DNSRECON: 
+- Install first repo locally: 
+    - `git clone https://github.com/darkoperator/dnsrecon.git`
+- CD into it 
+    - `cd dnsrecon` 
+- Install requirements for it to run 
+    - `pip install -r requirements.txt --no-warn-script-location`
+- Make sure that it works 
+    - `python dnsrecon.py -h` 
+- Then test a known domain: 
+    - `python dnsrecon.py -d stonybrook.edu`
